@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BarberSir</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <!-- <a class="navbar-brand" href="#">WebSiteName</a> -->
+                <a href="#">
+                    <img src="src/images/logo_blanco.png" alt="Logo Sir Barber">
+                </a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Inicio</a></li>
+                <li><a href="#servicios">Nuestros Servicios</a></li>
+                <li><a href="#ubicacion">Dónde Estamos</a></li>
+                <li><a href="https://mustaches-citas-reservar.mnz.dom.my.id/" target="_blank">Agenda tu Cita</a></li>
+                <li class="sobre-nosotros"><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <header class="cabecera">
+        <h1>
+            <a href="#">
+                <img src="src/images/logo_blanco.png" alt="Logo Sir Barber">
+            </a>
+        </h1>
+
+        <button class="boton-agendar">AGENDAR CITA</a></button>
+    </header> -->
+    <main class="hero">
+        <div class="hero-info">
+            <h2>Una nueva experiencia en barbería</h2>
+            <p>¡Experimenta cambiar por completo tu forma de ir al barbero con innovación, buen servicio y, por
+                supuesto, mucho estilo!</p>
+
+        </div>
+        <div class="hero-image">
+            <img src="src/images/maquina.png" alt="">
+        </div>
+    </main>
+    <section class="nuestros-servicios" id="servicios">
+        <p>NUESTROS SERVICIOS</p>
+        <h2>Descubra lo que hacemos mejor</h2>
+        <div class="servicios">
+            <i id="flecha-volver" class="fas fa-chevron-right icone-seta opacidad"></i>
+            <div class="servicio mostrar">
+                <img src="src/images/img-card-01-desktop.png" alt="Imagen Corte de Cabello">
+                <div class="servicio-info">
+                    <h3>Corte de cabello</h3>
+                    <p>Cortes profesionales y modernos para realzar tu estilo.</p>
+
+                </div>
+            </div>
+            <div class="servicio">
+                <img src="src/images/img-card-02-desktop.png" alt="Imagen Barba Recortada">
+                <div class="servicio-info">
+                    <h3>Barba recortada</h3>
+                    <p>Dale una buena forma a tu barba con nuestros cuidados especiales.</p>
+                </div>
+            </div>
+            <div class="servicio">
+                <img src="src/images/img-card-03-desktop.png" alt="Imagen Lavado">
+                <div class="servicio-info">
+                    <h3>Lavado</h3>
+                    <p>Cuida la limpieza de tu cabeza con productos exclusivos.</p>
+                </div>
+
+            </div>
+            <i id="flecha-avanzar" class="fas fa-chevron-right icone-seta"></i>
+        </div>
+    </section>
+    <div class="galeria-container">
+        <button class="galeria"><a href="Estilos/Cortes.html" class="estilo-texto">Revisa nuestra galería de
+                Cortes</a></button>
+        <button class="galeria"><a href="Estilos/Barbas.html" class="estilo-texto">Revisa nuestra galería de
+                Barbas</a></button>
+    </div>
+    <section class="nuestra-localizacion" id="ubicacion">
+        <div class="nuestra-localizacion-info">
+            <p>DÓNDE ESTAMOS</p>
+            <h2>¡Ven a visitarnos!</h2>
+            <p><img src="src/images/location.svg" alt="Ícono de Ubicación">Av. 11 E #2-29, Quinta Oriental, Cúcuta,
+                Norte de Santander</p>
+        </div>
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15807.911537587754!2d-72.49030410000002!3d7.897378999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e66459240ce63f1%3A0x1699523ee852766f!2sMustaches!5e0!3m2!1ses!2sco!4v1731365719748!5m2!1ses!2sco"
+                width="600" height="450" style="border:1;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </section>
+    <footer class="pie">
+        <div class="pie-info">
+            <h2>
+
+            </h2>
+            <p>©2024 - Mustache's. Todos los derechos reservados.</p>
+        </div>
+        <div class="menu">
+            <ul style="list-style-type: none;">
+              <li>
+                <a class="footMenu" href="https://mustaches-citas-reservar.mnz.dom.my.id/">Sistema de agendamiento</a>
+              </li>
+              <li>
+                <a class="footMenu" href="sobre-nosotros.html">Sobre nosotros</a>
+              </li>
+              <li>
+                <a class="footMenu" href="Estilos/Cortes.html">Galería de cortes</a>
+              </li>
+              <li>
+                <a class="footMenu" href="Estilos/Barbas.html">Galería de barbas</a>
+              </li>
+            </ul>
+          </div>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/barberiamustachescucuta" class="facebook" target="_blank"><i class="fab fa-facebook"></i></a>
+            <!-- <a href="#" class="twitter"><i class="fab fa-twitter"></i></a> -->
+            <a href="https://www.instagram.com/mustaches01/profilecard/?igsh=eXRiN2R4Z3pqZDl5" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
